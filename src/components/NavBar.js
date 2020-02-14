@@ -7,16 +7,15 @@ import logoRmAsociados from '../assets/logo_RM_Asociados.png'
 
 class Nav extends Component {
     state = {}
-
     componentDidMount() {
-      const  $= window.$;
+        const $ = window.$;
         $(window).scroll(function () {
-            if ($("#menu").offset().top > 56) {
-                $("#menu").css( {"background-color": "#2b2b2cd2"});
+            if ($("#menu").offset().top > 100) {
+                $("#menu").css({ "background-color": "#2b2b2cd2" });
             } else {
-                $("#menu").css({"background-color":''})
+                $("#menu").css({ "background-color": '' })
             }
-        })  
+        })
     }
 
     render() {
@@ -34,16 +33,13 @@ class Nav extends Component {
                                     <div className="collapse navbar-collapse justify-content-end" id="nav">
                                         <ul className="navbar-nav">
                                             <li className="nav-item" >
-                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Nosotros</a>
+                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Especialidades</a>
                                             </li>
                                             <li>
-                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Hola</a>
+                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Nosotros</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">ABOUT US</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Contacto</a>
+                                                <a className="nav-link text-light font-weight-bold px-3" href="!#">Contactanos</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -52,9 +48,24 @@ class Nav extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="container">
+                {/* style={{ marginTop: '6em' }} */}
+                    <div className="row">
+                        <div className="col-sm-12 text-right fondo2" >
+                            <cite className="cita ">"Después de Dios está el Derecho, porque siempre busca la Justicia”</cite>
+                        </div>
+                        <div className="col-sm-12 fondo1">
+                            <h1 className="titleRm">RM Asociados <br /> <h2 className="subtitleRm">Despacho de abogados</h2></h1>
+                        </div>
+                        <div className="col-sm-12 text-right d-none d-md-block fondo3 ">
+                            <button type="button" className="btn  " data-toggle="button" aria-pressed="false">
+                                Contactanos
+                        </button>
+                        </div>
+                    </div>
 
-
-            </Fragment>
+                </div>
+            </Fragment >
         );
     }
 }
