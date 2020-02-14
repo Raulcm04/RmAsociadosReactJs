@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 20%;
+}
+
+.menu {
+  padding: 12px;
+  /* background-color: #2b2b2cd2; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Noto Serif', serif; */
+  /* font-family: 'Cabin', sans-serif; */
+  font-family: "Raleway", sans-serif;
+}
+
+.titulos {
+  font-weight: 700;
+  font-size: 33px;
+  margin-left: 40px;
+  font-family: "Merriweather", serif;
+}
+
+.nav-link {
+  color: #e3e4e6;
+  margin-left: 10px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(94, 72, 12);
+  position: relative;
+  top: 180px;
+  left: 1000px;
+}
+
+.cita {
+  color: white;
+  position: relative;
+  left: 400px;
+  top: 80px;
+  font-size: 22px;
+  text-shadow: 20px 20px 10px grey;
+}
+
+.titleRm {
+  padding-top: 3em;
+  margin-left: 1.5em;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 2px;
+  font-weight: 800;
+}
+
+.subtitleRm {
+  padding-top: 1em;
+  margin-left: 1.5em;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 2px;
+  font-weight: 800;
+}
