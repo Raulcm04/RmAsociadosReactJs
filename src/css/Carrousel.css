@@ -1,0 +1,31 @@
+.carousel-item img {
+  height: 100vh;
+}
+
+.carousel-caption {
+  height: 100%;
+  width: 75%;
+}
+
+
+.cita {
+  color: white;
+  position: relative;
+  top: 180px;
+  font-size: 28px;
+  text-shadow: 20px 20px 10px grey;
+}
+
+.titleRm {
+  position: relative;
+  top: 160px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subtitleRm {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}

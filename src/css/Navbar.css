@@ -36,47 +36,7 @@
   color: white;
   background-color: rgb(94, 72, 12);
   position: relative;
-  top: 200px;
+  top: -150px;
+  right: 100px;
   /*left: 1000px; */
-}
-
-.cita {
-  color: white;
-  position: relative;
-  top: 180px;
-  font-size: 28px;
-  text-shadow: 20px 20px 10px grey;
-}
-
-.titleRm {
-  padding-top: 2.7em;
-  color: #ffffff;
-  font-size: 50px;
-  font-weight: 700;
-  /* position: relative;
-  top: 150px; */
-}
-
-.subtitleRm {
-  color: #ffffff;
-  font-size: 45px;
-  font-weight: 500;
-}
-
-.fondo1 {
-  /* background-color: red; */
-  height: 33vh;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.fondo2 {
-  /* background-color: blue; */
-  height: 33vh;
-
-}
-.fondo3 {
-  /* background-color: yellow; */
-  height: 33vh;
 }

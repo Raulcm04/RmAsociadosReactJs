@@ -45,26 +45,15 @@ class Nav extends Component {
                                     </div>
                                 </div>
                             </nav>
-                        </div>
-                    </div>
-                </div>
-                <div className="container">
-                {/* style={{ marginTop: '6em' }} */}
-                    <div className="row">
-                        <div className="col-sm-12 text-right fondo2" >
-                            <cite className="cita ">"Después de Dios está el Derecho, porque siempre busca la Justicia”</cite>
-                        </div>
-                        <div className="col-sm-12 fondo1">
-                            <h1 className="titleRm">RM Asociados <br /> <h2 className="subtitleRm">Despacho de abogados</h2></h1>
-                        </div>
-                        <div className="col-sm-12 text-right d-none d-md-block fondo3 ">
-                            <button type="button" className="btn  " data-toggle="button" aria-pressed="false">
-                                Contactanos
+                            <div className="containter text-right">
+                                <button type="button" className="btn " data-toggle="button" aria-pressed="false">
+                                    Contactanos
                         </button>
+                            </div>
                         </div>
                     </div>
-
                 </div>
+
             </Fragment >
         );
     }
